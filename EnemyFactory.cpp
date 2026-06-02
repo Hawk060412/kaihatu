@@ -2,10 +2,10 @@
 #include "Enemy.h"
 
 const EnemyData EnemyFactory::EnemyTable[] = {
-	{ 1, "Slime", 10, 5, 2, 1, 10, 5, 25, Element::None },
-	{ 2, "Goblin", 20, 10, 5, 2, 20, 10, 50, Element::Earth },
-	{ 3, "Orc", 30, 15, 8, 3, 30, 15, 75, Element::Fire },
-	{ 4, "Dragon", 100, 50, 20, 5, 1000, 1000, 100, Element::Wind }
+	{ 1, "Slime", 10, 5, 2, 1, 10, 5, 25.0f, Element::None },
+	{ 2, "Goblin", 20, 10, 5, 2, 20, 10, 50.0f, Element::Earth },
+	{ 3, "Orc", 30, 15, 8, 3, 30, 15, 75.0f, Element::Fire },
+	{ 4, "Dragon", 100, 50, 20, 5, 1000, 1000, 100.0f, Element::Wind }
 };
 const int EnemyFactory::EnemyTableSize = sizeof(EnemyTable) / sizeof(EnemyData);
 
